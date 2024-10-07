@@ -1,0 +1,100 @@
+# Lines strating with "#" are skipped
+# This is the file the program finds the URLs to compare the cubes with, write each new cube url as a new line
+# e.g.
+# https://cubecobra.com/cube/overview/61b39589e08c621026b9c80f
+# https://cubecobra.com/cube/overview/<yourcube>
+
+# BLB
+https://cubecobra.com/cube/overview/61b39589e08c621026b9c80f
+# MH3 new
+https://cubecobra.com/cube/overview/59df196d-07cd-4a88-a73e-877f6d3e2b29
+# MH3 old
+https://cubecobra.com/cube/overview/1fbbbb47-38b0-462d-8aff-40a16eb4fed3
+# OJT
+https://cubecobra.com/cube/overview/bf16f016-62ad-4855-a82c-eb3e6ff4f8e5
+# MKM
+https://cubecobra.com/cube/overview/9afdaf7b-d178-4519-82ba-815a3a0639b3
+# LCI
+https://cubecobra.com/cube/overview/74c206a8-914e-44e1-8f52-74a924745a39
+# MID
+https://cubecobra.com/cube/overview/619a20df1f1484100d45520b
+# WHO 
+https://cubecobra.com/cube/overview/2af45417-a8c1-4fde-adca-cd29b7576fda
+# WOE
+https://cubecobra.com/cube/overview/8252f787-07af-4f42-9fcb-fe3c1a02c1cc
+# LOTR
+https://cubecobra.com/cube/overview/04fe9126-c0bf-4b6d-ab30-b5d04a91114c
+# MOM
+https://cubecobra.com/cube/overview/11c630a6-66e7-4eef-9abb-1cb3cf8360a5
+# ONE 
+https://cubecobra.com/cube/overview/e46e7aa9-3f43-4097-a34e-2cd83121dff9
+#40K
+https://cubecobra.com/cube/overview/63fbb0da413f9b6aa94ba809
+#Cube Sample 29.01.2023
+https://cubecobra.com/cube/overview/63d62efa5996131ddc262589
+#Cube Sample 12.01.2023
+https://cubecobra.com/cube/overview/63c03a904ebcd85915635ff0
+#DMU
+https://cubecobra.com/cube/overview/63471db3cc2ec67e65a53085
+#2x2
+https://cubecobra.com/cube/overview/6310e9da1fdd0c73e0f52801
+#AFR
+https://cubecobra.com/cube/overview/5f4ebe2a56fdad5e19951b64
+#MH2
+https://cubecobra.com/cube/overview/60e1f5a8dd9ec2101e66276b
+#M21 - not working
+https://cubecobra.com/cube/overview/60edaa22e866b21046c573cb
+#2XM - not working
+https://cubecobra.com/cube/overview/60edaa3fe866b21046c57539
+#KHM
+https://cubecobra.com/cube/overview/60eda9e6e866b21046c570b6
+#THB
+https://cubecobra.com/cube/overview/60eda9c3e866b21046c56f43
+#ZNR
+https://cubecobra.com/cube/overview/60eda99ae866b21046c56dd3
+
+# KomboCube
+https://cubecobra.com/cube/overview/11b17f1f-bd5e-40dc-ac34-da24d0eca64b
+# FairArtBert
+https://cubecobra.com/cube/overview/241d48ed-180a-4a57-b682-e654d1ec6b50
+# UnfairTwobert
+https://cubecobra.com/cube/overview/2fc3ee26-8725-4180-a139-b8b2a0416b92
+# Fair Twobert
+https://cubecobra.com/cube/overview/f31857b3-5a2c-41e5-9af6-5fd36b4a6b21
+# Fair/Unfair Cube
+https://cubecobra.com/cube/overview/bc3e6b1c-98fe-420c-a7a1-f6ba01b09930
+# TCube - not working
+https://cubecobra.com/cube/list/tcucube
+# Reliquary Cube
+https://cubecobra.com/cube/overview/ReliquaryMKM
+# Side Cube
+https://cubecobra.com/cube/overview/lilof
+# Dekkaru Cube
+https://cubecobra.com/cube/overview/dekkaru
+# Bun Magic Cube
+https://cubecobra.com/cube/overview/andymangold 
+# Regular Cube
+https://cubecobra.com/cube/overview/regular
+# TurboCube
+https://cubecobra.com/cube/overview/turbo
+# Commander Cube Sam Black
+https://cubecobra.com/cube/overview/38rph
+# Robo Doggos (24 Scrapwork Mutt, Fake Cube)
+https://cubecobra.com/cube/overview/223e0a3b-61c9-402f-a112-cca9ae7c14fc
+# Black Cube
+https://cubecobra.com/cube/overview/black-cube
+# 100 Ornithopthers
+https://cubecobra.com/cube/overview/100-ornithopters
+# NeoClassical Cube
+https://cubecobra.com/cube/overview/neoclassical
+# Bierlies Main Cube
+https://cubecobra.com/cube/overview/1787h
+# The Island of Misfit Cards
+https://cubecobra.com/cube/overview/misfit
+# Morinfen Cube 
+https://cubecobra.com/cube/overview/2odt6
+
+# Urza's Block Cube
+https://cubecobra.com/cube/overview/16se
+# Phils Updated Vintage Cube
+https://cubecobra.com/cube/overview/5c4041b8-4437-426d-bb4c-6d3490511115

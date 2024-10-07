@@ -1,0 +1,26 @@
+# Ignore .spyproject directory
+.spyproject/
+
+# Ignore specific input folders and files
+Input/Cubedata - Kopie/
+Input/Cubedata/
+Input/Scryfall_defaultcards/
+Input/fetch_cubedata - Kopie.txt
+
+# Ignore src subfolders
+/src/__pycache__/
+/src/_old/
+
+# Ignore export folders and their subfolders
+/Export/
+/Export/Best Results/
+/Export/All Results/
+
+# Ignore Scryfall_defaultcards anywhere in the project
+**/Scryfall_defaultcards
+
+# Ignore specific fetch file copy
+fetch_cubedata - Kopie.txt
+
+# Ignore Git-related files and folders (for safety)
+/.git
