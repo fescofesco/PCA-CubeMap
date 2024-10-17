@@ -106,16 +106,16 @@ def find_best_silhouette_score(PCA_results):
             n_neighbors, umap_embedding, min_dist, cluster_labels, silhouette_score_val, n_clusters = result
             
             # Check if this is the best result for the current method
-            if best_results_dict[method] is None or silhouette_score_val > best_results_dict[method][3]:
-                best_results_dict[method] = (n_neighbors, min_dist, method, silhouette_score_val, n_clusters)
+            if best_PCA_results[method] is None or silhouette_score_val > best_PCA_results[method][3]:
+                best_PCA_results[method] = (n_neighbors, min_dist, method, silhouette_score_val, n_clusters)
 
     # For HDBSCAN, no fixed number of clusters, handle separately
     for result in PCA_results['hdbscan']:
         n_neighbors, umap_embedding, min_dist, cluster_labels, silhouette_score_val, n_clusters = result
 
         # Check if this is the best result for HDBSCAN
-        if best_results_dict['hdbscan'] is None or silhouette_score_val > best_results_dict['hdbscan'][3]:
-            best_results_dict['hdbscan'] = (n_neighbors, min_dist, 'hdbscan', silhouette_score_val, n_clusters)
+        if best_PCA_results['hdbscan'] is None or silhouette_score_val > best_PCA_results['hdbscan'][3]:
+            best_PCA_results['hdbscan'] = (n_neighbors, min_dist, 'hdbscan', silhouette_score_val, n_clusters)
 
     return best_PCA_results
 
@@ -369,8 +369,8 @@ def print_best_PCA_results(PCA_results = None, best_PCA_results = None, binary_m
             n_neighbors, min_dist, clustering_method, silhouette_score_val, n_clusters = best_PCA_results[method]
             print( n_neighbors, min_dist, clustering_method, silhouette_score_val, n_clusters)
             print(f"\nBest result found: n_neighbors={n_neighbors},  min_dist={min_dist}, method={clustering_method}, silhouette_score={silhouette_score_val}")
-     umap_clustering_interactive(binary_matrix, cubename_df, all_cardnames, best_results, n_neighbors=5, min_dist=0.1, n_clusters = 3, clustering=True, clustering_method='hdbscan', plot = True, export_path = None):
-
+            # umap_clustering_interactive(binary_matrix, cubename_df, all_cardnames, best_results, n_neighbors=5, min_dist=0.1, n_clusters = 3, clustering=True, clustering_method='hdbscan', plot = True, export_path = None):
+    
             # Call the interactive UMAP clustering with the best parameters
             umap_clustering_interactive(binary_matrix, cubename_df, 
                                         all_cardnames, PCA_results, 

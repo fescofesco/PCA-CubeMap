@@ -1,0 +1,7 @@
+hdbscan==0.8.38.post1
+numpy==2.1.2
+pandas==2.2.3
+plotly==5.24.1
+Requests==2.32.3
+scikit_learn==1.5.2
+umap_learn==0.5.6

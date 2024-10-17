@@ -208,3 +208,4 @@ if __name__ == "__main__":
     export_path = Path("..//Input/Cubedata")
     fetch_cube_data(urls,export_path)
     
+    
