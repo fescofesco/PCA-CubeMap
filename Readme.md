@@ -1,4 +1,4 @@
-# PCA CubeMap
+# [PCA CubeMap](https://github.com/fescofesco/PCA-CubeMap)
 
 This project demonstrates dimensional reduction using PCA (Principal Component Analysis) and UMAP (Uniform Manifold Approximation and Projection) to cluster sets of Magic: The Gathering cards. It includes scripts for fetching cube data, processing it, and performing clustering analysis like described in the article from [luckypaper](https://luckypaper.co/articles/mapping-the-magic-landscape/).
 The clustering can be evaluated using the [Silhouette score](https://en.wikipedia.org/wiki/Silhouette_(clustering)).
